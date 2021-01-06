@@ -1,18 +1,31 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-container>
+      <el-header>
+        <MyTitle title_txt="ELF 短链" introduction="在下方方框内输入需要缩短的链接"/>
+      </el-header>
+      <el-main>
+        <Page/>
+      </el-main>
+      <el-footer>
+        <MyFoot/>
+      </el-footer>
+    </el-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MyTitle from '@/components/MyTitle'
+import Page from '@/components/Page'
+import MyFoot from '@/components/MyFoot'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    MyTitle,
+    Page,
+    MyFoot
   }
 }
 </script>
