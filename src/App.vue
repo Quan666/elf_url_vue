@@ -19,7 +19,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin-top: 60px;
-  min-width: 450px;
+  /*min-width: 450px;*/
   /*opacity:0.8;*/
 }
 body{

@@ -151,7 +151,7 @@ div{
 }
 .page_pc_width{
   width: 50%;
-  min-width: 400px;
+  min-width: 300px;
 }
 .page_pc_height{
   min-height: 300px;
